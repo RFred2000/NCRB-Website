@@ -1,0 +1,85 @@
+body {
+    margin: 0px;
+}
+
+.navigation {
+    display: flex;
+    justify-content: right;
+    background-color: #062141;
+}
+
+.navigation ul {
+    list-style-type: none;
+    margin: 0;
+    padding-right: 65px;
+    overflow: hidden;
+}
+
+.navigation li {
+    float: left;
+    color: white;
+    padding: 5px 10px;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.become-member {
+    background-color: #4473bf;
+}
+
+.fitness-categories {
+    display:flex;
+    background-color: #09274c;
+    justify-content: left;
+    align-content: stretch;
+    height: 100px;
+}
+
+.fitness-categories ul {
+    list-style-type: none;
+    margin: 0;
+    padding-right: 30px;
+    overflow: hidden;
+    transform: translateY(17px);
+}
+
+.fitness-categories li {
+    float: left;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+#logo-image {
+    margin-right: 20px;
+    height:65%;
+    transform: translateY(15px)
+}
+
+#gym-image {
+    width: 100%;
+    margin:0px;
+    padding:0px;
+}
+
+.line {
+    background-color: gray;
+    height: 1px;
+    margin: 20px;
+}
+
+.description {
+    margin-left: 20px;
+    display: flex;
+    justify-content: left;
+}
+
+.description ul {
+    list-style: none;
+}
+
+.description ul li {
+    padding-bottom: 15px;
+    color: blue;
+}
